@@ -1,0 +1,49 @@
+.task-item {
+  background-color: #262626;
+  border: 1px solid #333333;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 16px;
+  gap: 12px;
+}
+
+.task-item__text {
+  flex-grow: 1;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #f2f2f2;
+}
+
+.task-item__text--completed {
+  color: #808080;
+  text-decoration: line-through;
+}
+
+.task-item__icon {
+  cursor: pointer;
+  width: 17px;
+  height: 17px;
+}
+
+.task-item__button {
+  padding-top: 3.27px;
+}
+
+.task-item__icon--complete {
+  color: #4ea8de;
+}
+
+.task-item__icon--completed {
+  color: #585abd;
+}
+
+.task-item__icon--delete {
+  color: #808080;
+  transition: color 0.3s ease;
+}
+
+.task-item__icon--delete:hover {
+  color: #e25858;
+}

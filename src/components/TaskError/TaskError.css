@@ -1,0 +1,39 @@
+.task-error {
+  border-top: 1px solid #333333;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 24px;
+  gap: 16px;
+}
+
+.task-error__icon {
+  color: #3d3d3d;
+  width: 56px;
+  height: 56px;
+}
+
+.task-error__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.task-error__text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #808080;
+}
+
+.task-error__text--title {
+  font-weight: 500;
+}
+
+.task-error__text--message {
+  font-weight: 300;
+}

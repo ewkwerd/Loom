@@ -1,0 +1,39 @@
+.task-empty {
+  border-top: 1px solid #333333;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 24px;
+  gap: 16px;
+}
+
+.task-empty__icon {
+  color: #3d3d3d;
+  width: 56px;
+  height: 56px;
+}
+
+.task-empty__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.task-empty__text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #808080;
+}
+
+.task-empty__text--title {
+  font-weight: 500;
+}
+
+.task-empty__text--message {
+  font-weight: 300;
+}

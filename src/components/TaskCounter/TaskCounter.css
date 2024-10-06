@@ -1,0 +1,30 @@
+.task-counter__text {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.task-counter__text--created {
+  color: #4ea8de;
+}
+
+.task-counter__text--completed {
+  color: #8284fa;
+}
+
+.task-counter__text--created,
+.task-counter__text--completed {
+  display: flex;
+  align-items: center;
+}
+
+.task-counter__number {
+  background-color: #333333;
+  border-radius: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #d4d4d4;
+  padding: 2px 8px;
+  margin-left: 8px;
+}

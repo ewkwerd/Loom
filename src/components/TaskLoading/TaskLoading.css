@@ -1,0 +1,49 @@
+.task-loading {
+  border-top: 1px solid #333333;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 24px;
+  gap: 16px;
+}
+
+.task-loading__icon {
+  color: #3d3d3d;
+  width: 56px;
+  height: 56px;
+  animation: rotate 3s linear infinite;
+}
+
+.task-loading__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.task-loading__text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #808080;
+}
+
+.task-loading__text--title {
+  font-weight: 500;
+}
+
+.task-loading__text--message {
+  font-weight: 300;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
