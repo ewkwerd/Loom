@@ -6,6 +6,7 @@ Loom is a web app that enables efficient task management. With its sleek design,
 - **React Hooks**: Utilizes `useEffect`, `useContext`, and custom hooks for state management.
 - **Local Storage**: Saves tasks to local storage for persistence.
 - **BEM Naming Convention**: Follows BEM methodology for CSS structure.
+- **Icon Integration**: Implements **React Icons**, specifically utilizing **Feather Icons** for a modern and clean look.
 
 | Desktop View | Mobile View |
 |--------------|-------------|
